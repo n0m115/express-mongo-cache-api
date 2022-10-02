@@ -19,6 +19,17 @@ components:
         name: fake name
         role: user
 
+    Cache:
+      type: object
+      properties:
+        id:
+          type: string
+        value:
+          type: string
+      example:
+        id: 5ebac534954b54139806c112
+        value: fake value
+
     Token:
       type: object
       properties:
